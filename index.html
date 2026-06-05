@@ -1,195 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-    <meta name="theme-color" content="#050505">
-  <link rel="icon" href="assets/photo1.jpg">
-  
-  <title>RAJA SHAMEER</title>
-
-  <link rel="stylesheet" href="style.css"/>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raja Shameer | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <div class="noise"></div>
-  <div class="gradient"></div>
+<div class="cursor-glow"></div>
 
-  <header>
-    <div class="logo">Shameer7</div>
-
-    <nav>
-      <a href="#about">About</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#skills">Skills</a>
-      <a href="#socials">Socials</a>
-    </nav>
-  </header>
-
-  <section class="hero">
-
-    <div class="left">
-      <img src="assets/pic2.png" alt="profile" class="hero-img">
+<nav id="navbar">
+    <div class="logo">Shameer</div>
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </div>
+</nav>
 
-    <div class="right">
-
-      <p class="mini">DIGITAL CHAOS CREATOR</p>
-
-      <h1>
-        RAJA <br>
-        SHAMEER
-      </h1>
-
-      <p class="tagline">
-        அரியவகை உயிரினம்<br>
-        RARE SPECIES
-      </p>
-
-      <div class="buttons">
-        <a href="https://instagram.com/user_went_to_mars" target="_blank" class="btn primary">
-          INSTAGRAM
-        </a>
-
-        <a href="#gallery" class="btn secondary">
-          EXPLORE
-        </a>
-      </div>
-
+<section class="hero">
+    <div class="hero-content reveal">
+        <img src="images/imgjpg.jpeg" class="profile-img" alt="Profile">
+        <h1>Raja Shameer.R.B</h1>
+        <h2><span id="typing"></span></h2>
+        <br>
+        <p>Final Year Computer Science Engineering Student passionate about Backend Development, Databases, IoT, and Cybersecurity.</p>
+        <br>
+        <div class="buttons">
+            <a href="#projects" class="btn">Projects</a>
+            <a href="resume.pdf" class="btn secondary">Resume</a>
+        </div>
     </div>
+</section>
 
-  </section>
+<section id="about" class="reveal">
+<h2>About Me</h2>
+<br>
+<p>
+Final Year CSE student with experience building real-world IoT systems, monitoring dashboards,
+tracking solutions, healthcare simulators, and database-driven applications. All projects listed below
+were developed as team projects.
+</p>
+</section>
 
-  <section class="about" id="about">
+<section class="stats">
+<!-- <div class="stat reveal"><span class="counter" data-target="6">0</span><p>Team Projects</p></div>
+<div class="stat reveal"><span class="counter" data-target="10">0</span><p>Technologies</p></div>
+<div class="stat reveal"><span class="counter" data-target="1">0</span><p>SIH Participation</p></div>
+<div class="stat reveal"><span class="counter" data-target="3">0</span><p>Domains</p></div> -->
+</section>
 
-    <div class="section-title">ABOUT</div>
+<section id="skills" class="reveal">
+<h2>Hands on Experience</h2>
+<div class="skills">
+<span>Python</span><span>MSSQL</span><span>Flask</span><span>Java</span>
+<span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span>
+<span>Embedded C</span><span>Flutter</span>
+<!-- <span>Git</span><span>Cybersecurity</span> -->
+</div>
+</section>
 
-    <div class="about-content">
+<section id="projects">
+<h2 class="reveal">Team Projects</h2>
 
-      <div class="glass-card">
-        <h2>♟ CHESS</h2>
-        <p>
-          DM for 1v1 <br>
-          Don't expect any reply ! <br>
-          "வெற்றி தோல்வி வீரனுக்கு சகஜம்"
-        </p>
-      </div>
+<div class="project reveal">
+<img src="images/watertank.png">
+<div>
+<h3>Smart Water Tank Monitoring</h3>
+<p>IoT-based monitoring system with water level sensing, relay automation, database integration, and live dashboard visualization.</p>
+</div>
+</div>
 
-      <div class="glass-card">
-        <h2>🎵 MUSIC</h2>
-        <p>
-          CDEFGAB <br>
-          That's all I know.<br>
-          "ஆடலுடன் பாடலை கேட்டு ரசிப்பது சுகம் சுகம்"
-        </p>
-      </div>
+<div class="project reveal">
+<img src="images/nursing.jpeg">
+<div>
+<h3>Sim Vital</h3>
+<p>CPR simulation and multiparameter monitor simulator designed for healthcare training and patient-monitoring demonstrations.</p>
+</div>
+</div>
 
-      <div class="glass-card">
-        <h2>💻 CODER</h2>
-        <p>
-          Tried every AI, <br>
-          Still can't code a website without errors.<br>
-          "ஒரு மண்ணும் தெரியாது"
-        </p>
-        
-      </div>
+<div class="project reveal">
+<img src="images/ac.png">
+<div>
+<h3>Smart A/C Control System</h3>
+<p>Automation-based control system for monitoring and remotely managing air-conditioning operations.</p>
+</div>
+</div>
 
-    </div>
+<div class="project reveal">
+<img src="images/rover.png">
+<div>
+<h3>Rover Project</h3>
+<p>Robotics project integrating movement control, sensor-based functionality, and remote operation.</p>
+</div>
+</div>
 
-  </section>
+<div class="project reveal">
+<img src="images/sih.png">
+<div>
+<h3>Smart Crutches 🏆 SIH</h3>
+<p>Assistive technology solution developed for Smart India Hackathon participation, focusing on accessibility and user support.</p>
+</div>
+</div>
 
-  <section class="gallery" id="gallery">
+<div class="project reveal">
+<img src="images/bus.png">
+<div>
+<h3>Bus Tracking System</h3>
+<p>Real-time GPS-based tracking solution with database integration and web dashboard visualization.</p>
+</div>
+</div>
 
-    <div class="section-title">WHOLESOME PICS</div>
+</section>
 
-    <div class="gallery-grid">
+<section id="contact" class="reveal">
+<h2>Contact</h2>
+<p>Email: <a href="mailto:shameercodez@gmail.com">shameercodez@gmail.com</a></p>
+<br>
+<p>GitHub: <a href="https://github.com/Raja-Shameer-R-B" target="_blank">https://github.com/Raja-Shameer-R-B</a></p>
+<br>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/raja-shameer-r-b-link" target="_blank">www.linkedin.com/in/raja-shameer-r-b-link</a></p>
+</section>
 
-      <img src="assets/photo1.jpeg">
-      <img src="assets/photo2.png">
-      <img src="assets/photo3.jpeg">
-      <img src="assets/photo4.jpeg">
-      <img src="assets/photo8.jpeg">
-      <img src="assets/photo5.jpeg">
-      <img src="assets/photo6.jpeg">
-      <img src="assets/photo7.jpeg">
-
-    </div>
-
-  </section>
-
-  <section class="skills" id="skills">
-
-    <div class="section-title">SKILLS</div>
-
-    <div class="skill-container">
-
-      <div class="skill">
-        <span>Sleeping</span>
-        <div class="bar"><div class="fill w69"></div></div>
-      </div>
-
-      <div class="skill">
-        <span>Day Dreaming</span>
-        <div class="bar"><div class="fill w80"></div></div>
-      </div>
-
-      <div class="skill">
-        <span>Common Sense</span>
-        <div class="bar"><div class="fill w40"></div></div>
-      </div>
-
-      <div class="skill">
-        <span>Productivity</span>
-        <div class="bar"><div class="fill w15"></div></div>
-      </div>
-      <div class="skill">
-        <span>Editing</span>
-        <div class="bar"><div class="fill w80"></div></div>
-      </div>
-    </div>
-
-  </section>
-
-  <section class="socials" id="socials">
-
-    <div class="section-title">CONNECT</div>
-
-    <div class="social-links">
-
-      <a href="https://instagram.com/user_went_to_mars" target="_blank">
-        INSTAGRAM
-      </a>
-
-      <a href="https://github.com/Raja-Shameer-R-B " target="_blank">
-        GITHUB
-      </a>
-
-      <a href="https://wa.me/6969696969" target="_blank">
-        WHATSAPP
-      </a>
-
-      <a href="https://youtube.com/@lga_afk?si=jvGQftHEok9M4FzD" target="_blank">
-        YOUTUBE
-      </a>
-
-        <a href="https://www.instagram.com/maiyru_memes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-        MEMES
-      </a>
-
-    </div>
-
-  </section>
-
-  <footer>
-    <p>© 2026 RAJA SHAMEER // SIGNAL FROM MARS</p>
-  </footer>
-
-  <script src="script.js"></script>
-
+<script src="script.js"></script>
 </body>
 </html>
